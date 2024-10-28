@@ -1,0 +1,18 @@
+namespace Opgave2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string Navn = "Mit navn er Lukas";
+
+
+
+            Console.WriteLine(Navn);
+
+            Console.ReadKey();
+        }
+
+        
+    }
+}
