@@ -1,0 +1,25 @@
+namespace Opgave4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Indtast din alder");
+            int Alder = Convert.ToInt32(Console.ReadLine());
+
+
+            if (Alder > 18)
+            {
+                Console.WriteLine("Du er myndig");
+            }
+            else
+            {
+                {
+                    Console.WriteLine("Du er ikke myndig");
+                }
+            }
+        }
+
+        
+    }
+}
