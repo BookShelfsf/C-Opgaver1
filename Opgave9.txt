@@ -1,0 +1,16 @@
+namespace Opgave9
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] Navne = { "10kr", "20kr", "30kr", "40kr", "50kr",};
+
+
+            for (int i = 0; i < Navne.Length; i++)
+            {
+                Console.WriteLine(Navne[i]);
+            }
+        }
+    }
+}
