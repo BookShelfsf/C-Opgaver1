@@ -1,0 +1,21 @@
+namespace Opgave11
+{
+    internal class Program
+    {
+        const double MOMS = 0.25;
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Indtast pris uden moms: ");
+            double prisudenmoms = Convert .ToDouble(Console.ReadLine());
+
+            double moms = prisudenmoms * MOMS;
+
+            double prismedmoms = prisudenmoms + moms;
+
+            Console.WriteLine("Momsbeløb: " + moms);
+            Console.WriteLine("Pris med moms: " + prismedmoms);
+
+        }
+    }
+}
