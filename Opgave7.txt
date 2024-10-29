@@ -1,0 +1,15 @@
+namespace Opgave7
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Helloworld();
+        }
+
+        static void Helloworld()
+        {
+            Console.WriteLine("Hello world");
+        }
+    }
+}
